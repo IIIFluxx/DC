@@ -1,0 +1,62 @@
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.exe.config
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.exe
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.pdb
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\bin\Debug\RemotingServer.exe
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\bin\Debug\DatabaseGenerator.dll
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\bin\Debug\RemotingServer.pdb
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\bin\Debug\RemotingServer.exe.config
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\bin\Debug\DatabaseGenerator.pdb
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csprojAssemblyReference.cache
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\MainWindow.g.cs
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\App.g.cs
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp_MarkupCompile.cache
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp_MarkupCompile.lref
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\MainWindow.baml
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.g.resources
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.Properties.Resources.resources
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.GenerateResource.cache
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.CopyComplete
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.exe
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.exe.config
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\bin\Debug\RemotingServer.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\bin\Debug\DatabaseGenerator.dll
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\bin\Debug\RemotingServer.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\bin\Debug\RemotingServer.exe.config
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\bin\Debug\DatabaseGenerator.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csprojAssemblyReference.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\App.g.cs
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp_MarkupCompile.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp_MarkupCompile.lref
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\MainWindow.baml
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.g.resources
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.Properties.Resources.resources
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.GenerateResource.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.CoreCompileInputs.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.CopyComplete
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.pdb
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.exe.config
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.exe
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\bin\Debug\wpfApp.pdb
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\bin\Debug\DatabaseGenerator.dll
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\bin\Debug\DBInterface.dll
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\bin\Debug\DatabaseGenerator.pdb
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\bin\Debug\DBInterface.pdb
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csprojAssemblyReference.cache
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\MainWindow.g.cs
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\App.g.cs
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp_MarkupCompile.cache
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp_MarkupCompile.lref
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\MainWindow.baml
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.g.resources
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.Properties.Resources.resources
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.GenerateResource.cache
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.csproj.CopyComplete
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.exe
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\wpfApp\obj\Debug\wpfApp.pdb

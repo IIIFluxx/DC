@@ -1,0 +1,12 @@
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\DatabaseGenerator\obj\Debug\DatabaseGenerator.csprojAssemblyReference.cache
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\DatabaseGenerator\obj\Debug\DatabaseGenerator.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\DatabaseGenerator\bin\Debug\DatabaseGenerator.dll
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\DatabaseGenerator\bin\Debug\DatabaseGenerator.pdb
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\DatabaseGenerator\obj\Debug\DatabaseGenerator.dll
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\DatabaseGenerator\obj\Debug\DatabaseGenerator.pdb
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DatabaseGenerator\bin\Debug\DatabaseGenerator.dll
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DatabaseGenerator\bin\Debug\DatabaseGenerator.pdb
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DatabaseGenerator\obj\Debug\DatabaseGenerator.csprojAssemblyReference.cache
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DatabaseGenerator\obj\Debug\DatabaseGenerator.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DatabaseGenerator\obj\Debug\DatabaseGenerator.dll
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DatabaseGenerator\obj\Debug\DatabaseGenerator.pdb

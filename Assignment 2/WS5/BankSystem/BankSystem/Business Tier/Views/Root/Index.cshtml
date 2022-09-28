@@ -1,0 +1,74 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<link rel="stylesheet" href="~/Content/master.css" />
+<html>
+<head>
+    <title> Kesh Banking</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body style="background:url(../Images/spikes.png)">
+    @*REFERENCE: *@
+    @*<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>*@
+    <img src="~/Images/bank.png" alt="Kesh Banking Logo" id="logoImg" style="float:right;width:100px;height:100px;"/>
+    <h2 style="font-family:'Segoe UI';">Welcome to Kesh Banking!</h2>
+    <div id="LoadWebPages">
+        <button id="loadAcc" style="background-color: rgb(255, 208, 204);" onclick="LoadAccountsPage()"><strong>Load Accounts</strong></button>
+        <button id="loadTrans" style="background-color: rgb(153, 255, 204);" onclick="LoadTransactionsPage()"><strong>Load Transactions</strong></button>
+        <button id="loadUsers" style="background-color: rgb(201, 212, 232);" onclick="LoadUsersPage()"><strong>Load Users</strong></button>
+    </div>
+    <div id="Content"> @*Area where our functions are loaded into -- separate DIV from the area for buttons above. *@
+    </div>
+    <script>
+        // Accounts Page Loading
+        function LoadAccountsPage() {
+            $.ajax({
+                url: 'https://localhost:44387/Root/Accounts',
+                type: 'get',
+                processData: false,
+                success: function (d, t, j) {
+                    $('#Content').html(d);
+                },
+                error: function (j, t, e) {
+                    console.log("Error occured during Accounts Page loading: " + e);
+                }
+            });
+        }
+
+        // Transactions Page Loading
+        function LoadTransactionsPage() {
+            $.ajax({
+                url: 'https://localhost:44387/Root/Transactions',
+                type: 'get',
+                processData: false,
+                success: function (d, t, j) {
+                    $('#Content').html(d);
+                },
+                error: function (j, t, e) {
+                    console.log("Error occured during Transactions Page loading: " + e);
+                }
+            });
+        }
+
+        // Accounts Page Loading
+        function LoadUsersPage() {
+            $.ajax({
+                url: 'https://localhost:44387/Root/Users',
+                type: 'get',
+                processData: false,
+                success: function (d, t, j) {
+                    $('#Content').html(d);
+                },
+                error: function (j, t, e) {
+                    console.log("Error occured during Users Page loading: " + e);
+                }
+            });
+        }
+
+    </script>
+</body>
+</html>
+
+
+

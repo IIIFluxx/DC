@@ -1,0 +1,3 @@
+// REFERENCE: Part of my tutor - Alex Starling's code from provided Solution given earlier in the Semester has been used re: Bitmaps and Fault Contracts. //
+
+// I assume it is fine to use; having also talked to him in person regarding its use, as being okay for submission as it is a resource that was given to us to adapt if stuck.

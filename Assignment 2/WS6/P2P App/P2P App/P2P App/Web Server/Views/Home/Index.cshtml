@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<body onload="Leaderboard()">
+    <br />
+
+    <h2>P2P Leaderboard</h2>
+
+    <br />
+
+    <div id="Content">
+    </div>
+</body>
+
+
+<script>
+
+    function Leaderboard() {
+        $.ajax({
+            url: "/api/Client/GetLeaderboard",
+            type: 'get',
+            processData: false,
+            success: function (d, t, j) {
+
+                for (var ii in d) {
+                    $('#Content').append("Client: " + d[ii].IPAddress + ":" + d[ii].portNum + " || External jobs completed: " + d[ii].jobsDone);
+                    $('#Content').append("<br/><br/>");
+                }                
+            },
+            error: function (j, t, e) {
+                console.log("Error occured during Leaderboard Page loading: " + e);
+            }
+        });
+    }
+
+</script>

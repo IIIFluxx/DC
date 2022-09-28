@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>What a nice page</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Welcome to the nice page</h1>
+	<p>Please enter a search</p>
+	<input type="text" id="TK421" name="TK421">
+	<button onclick="DoAThing()">Go!</button>
+	<div id="Content">
+	</div>
+	<script>
+		function DoAThing(){
+			$("#Content").html($("#TK421").val());
+		}
+	</script>
+</body>
+</html>

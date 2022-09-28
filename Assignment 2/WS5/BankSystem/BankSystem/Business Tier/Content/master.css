@@ -1,0 +1,25 @@
+﻿.Content {
+    animation: transactionIn 0.75s;
+    /*All content within the container div will take 0.75s to transition --- from{} -> to{}*/
+}
+
+.LoadWebPages {
+    animation: transactionIn 0.75s;
+    /*All content within the container div will take 0.75s to transition --- from{} -> to{}*/
+}
+
+@keyframes transactionIn{
+    /*From these properties - inital transition state */
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+        /*transform: translateY(-10px);*/
+    }
+    /*To these properties */
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+        /*transform: translateY(0);*/
+    }
+    /*When the page loads up, whichever element we set this keyframe to, the element goes from the from{} to the to{}*/
+}

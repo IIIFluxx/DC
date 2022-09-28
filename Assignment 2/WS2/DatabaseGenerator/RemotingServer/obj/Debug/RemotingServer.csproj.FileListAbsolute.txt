@@ -1,0 +1,34 @@
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.exe.config
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.exe
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.pdb
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\bin\Debug\DatabaseGenerator.dll
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\bin\Debug\DatabaseGenerator.pdb
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csprojAssemblyReference.cache
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csproj.CopyComplete
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.exe
+D:\University\2021\DC\Workshops\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.exe.config
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\bin\Debug\DatabaseGenerator.dll
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\bin\Debug\DatabaseGenerator.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csprojAssemblyReference.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csproj.CoreCompileInputs.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csproj.CopyComplete
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\bin\Debug\DBInterface.dll
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\WS1\DatabaseGenerator\RemotingServer\bin\Debug\DBInterface.pdb
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.exe.config
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.exe
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\bin\Debug\RemotingServer.pdb
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\bin\Debug\DatabaseGenerator.dll
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\bin\Debug\DBInterface.dll
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\bin\Debug\DatabaseGenerator.pdb
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\bin\Debug\DBInterface.pdb
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csprojAssemblyReference.cache
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.csproj.CopyComplete
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.exe
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\RemotingServer\obj\Debug\RemotingServer.pdb

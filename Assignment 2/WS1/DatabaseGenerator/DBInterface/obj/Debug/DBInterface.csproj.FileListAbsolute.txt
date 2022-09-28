@@ -1,0 +1,6 @@
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DBInterface\bin\Debug\DBInterface.dll
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DBInterface\bin\Debug\DBInterface.pdb
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DBInterface\obj\Debug\DBInterface.csprojAssemblyReference.cache
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DBInterface\obj\Debug\DBInterface.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DBInterface\obj\Debug\DBInterface.dll
+D:\University\2021\DC\Assignment 2 Check\WS1\DatabaseGenerator\DBInterface\obj\Debug\DBInterface.pdb

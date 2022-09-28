@@ -1,0 +1,10 @@
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\bin\Debug\Business Tier.exe.config
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\bin\Debug\Business Tier.exe
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\bin\Debug\Business Tier.pdb
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\bin\Debug\DBInterface.dll
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\bin\Debug\DBInterface.pdb
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\obj\Debug\Business Tier.csprojAssemblyReference.cache
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\obj\Debug\Business Tier.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\obj\Debug\Business Tier.csproj.CopyComplete
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\obj\Debug\Business Tier.exe
+D:\University\2021\DC\Assignment 2 Check\WS2\DatabaseGenerator\Business Tier\obj\Debug\Business Tier.pdb

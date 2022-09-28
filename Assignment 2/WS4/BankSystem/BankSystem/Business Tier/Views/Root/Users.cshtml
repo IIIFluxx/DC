@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewBag.Title = "Users";
+}
+
+<h2>Users</h2>
+<br />
+<br />
+
+@* ======================== Forms ==================================*@
+<form>
+    <label>User Details Query</label><br />
+    @* User enters ID into here: *@
+    <input type="text" id="userID" name="userID" placeholder="Enter User ID" /><br /><br />
+    @* Search method should return results, and display fname,lname in here:*@
+    <input type="text" id="fname" name="fname" placeholder="First Name" readonly /><br /><br />
+    <input type="text" id="lname" name="lname" placeholder="Surname" readonly /><br /><br />
+</form>
+<button id="searchBtn" onclick="Search()">Search</button>
+<br />
+<br />
+
+
+<form>
+    <label>Create User</label><br />
+    @* User enters details into here: *@
+    <input type="text" id="userFName" name="userFName" placeholder="Please enter first name" /><br /><br />
+    <input type="text" id="userLName" name="userLName" placeholder="Please enter surname" /><br /><br />
+</form>
+<button id="createBtn" onclick="Create()">Create</button>
+
+
+@* ======================== Functions/Scripts ==================================*@
+<script>
+    function Search() {
+        console.log("Searching for Account");
+        $.ajax({
+            url: "/api/BankAPI/SelectUser/" + $('#userID').val(),
+            type: 'get',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+                if (data != null) {
+                    var obj = data;
+                    alert("User " + obj.userID + " found!");
+                    $("#userID").val(obj.userID);
+                    $("#fname").val(obj.fname);
+                    $("#lname").val(obj.lname);
+                }
+                else {
+                    alert("User not found!");
+                    console.log("Unable to find user from provided User ID ");
+                }
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                alert("ERROR: Search data is invalid");
+                console.log(errorThrown);
+            }
+        });
+
+    }
+
+
+
+    function Create() {
+        console.log("Creating an Account");
+        $.ajax({
+            url: "/api/BankAPI/CreateUserAcc/" + $("#userFName").val() + "/" + $("#userLName").val(),
+            type: 'post',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+
+                if (data == null) /* i.e. return from function == 0. Means withdraw failed*/ {
+                    alert("Creating account for " + $("#userFName").val() + " " + $("#userLName").val() + " failed. Please enter a valid name containing only letters!");
+                    console.log("Attempt to create user has failed.");
+                }
+                else {
+                    alert("User & Account has been created. ");
+                    console.log("Attempt to create user has succeeded.");
+                }
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                alert("ERROR: Create User data is invalid");
+                console.log(errorThrown);
+            }
+        });
+
+    }
+
+</script>
+
+
+
+

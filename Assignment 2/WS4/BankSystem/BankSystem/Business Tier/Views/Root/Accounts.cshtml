@@ -1,0 +1,140 @@
+﻿
+@{
+    ViewBag.Title = "Accounts";
+}
+<br />
+
+<h2>Accounts</h2>
+<form>
+    <!-- Form for getting our account balance-->
+    <label>Get Account Balance</label><br />
+    <input type="text" id="acctID" name="acctID" placeholder="Account ID" /><br /><br />
+    <input type="text" id="acctBal" name="acctBal" placeholder="Account Balance" readonly /><br /><br />
+</form>
+<button id="submitButton" onclick="GetAccountDetails()">Get Account</button>
+<br />
+<br />
+<form>
+    <!-- Form for withdrawing money -->
+    <label>Withdraw</label><br />
+    <input type="text" id="acctIDwithdraw" name="acctIDwithdraw" placeholder="Enter Account ID" /><br /><br />
+    <input type="text" id="withdrawAmount" name="withdrawAmount" placeholder="Enter amount to Withdraw" /><br /><br />
+</form>
+<button id="withdrawButton" onclick="Withdraw()">Withdraw</button>
+
+<form>
+    <!-- Form for depositing money -->
+    <label>Deposit</label><br />
+    <input type="text" id="acctIDdeposit" name="acctIDdeposit" placeholder="Enter Account ID" /><br /><br /> 
+    <input type="text" id="depositAmount" name="depositAmount" placeholder="Enter amount to Deposit" /><br /><br />
+</form>
+<button id="depositButton" onclick="Deposit()">Deposit</button>
+
+
+<script>
+    function GetAccountDetails()
+    {
+        console.log("Get Account");
+        @*DEBUG: console.log("URL = api/BankAPI/GetAccDet/" + $('#acctID').val());*@
+		$.ajax({
+            url: "/api/BankAPI/GetAccDet/" + $('#acctID').val(),
+			type: 'get',
+			contentType: 'application/json',
+			processData: false,
+            success: function (data, textStatus, jQxhr) {
+                if (data != null) {
+                    var obj = data;
+                    $("#acctBal").val(obj.acctBalance);
+                    $("#acctID").val(obj.acctID);
+                    System.Diagnostics.Debug.WriteLine("acctID = " + obj.acctID + ".");
+                    alert("Account found!");
+                }
+                else {
+                    console.log("Unable to find account from provided Account Number");
+                    System.Diagnostics.Debug.WriteLine("Failed.");
+                    alert("Account not found!");
+
+                }
+			},
+            error: function (jqXhr, textStatus, errorThrown) {
+				console.log(errorThrown);
+                alert("ERROR: GetAccDet data is invalid");
+			}
+		});
+    }
+
+    function Withdraw()
+    {
+        console.log("Withdraw");
+        $.ajax({
+            url: "/api/BankAPI/Withdraw/" + $("#acctIDwithdraw").val() + "/" + $("#withdrawAmount").val(),
+            type: 'post',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+
+                if (data == 0) /* i.e. return from function == 0. Means withdraw failed*/
+                {
+                    alert("Withdrawal for $" + $("#withdrawAmount").val() + " failed. Please enter a valid account ID/amount!");
+                }
+                else
+                {
+                    console.log(textStatus);
+                    alert("Money withdrawn");
+                }
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                console.log(errorThrown);
+                alert("ERROR: Withdraw data is invalid");
+            }
+        });
+    }
+    function Deposit()
+    {
+        console.log("Deposit");
+        $.ajax({
+            url: "/api/BankAPI/Deposit/" + $("#acctIDdeposit").val() + "/" + $("#depositAmount").val(),
+            type: 'post',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+
+                if (data == 0) /* i.e. return from function == 0. Means withdraw failed*/ {
+                    alert("Depositing $" + $("#depositAmount").val() + " failed. Please enter a valid account ID/amount!");
+                }
+                else {
+                    console.log(textStatus);
+                    alert("Money deposited");
+                }
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                alert("ERROR: Deposit data is invalid");
+                console.log(errorThrown);
+            }
+        });
+
+    }
+</script>
+
+
+@*
+    <script>
+        function foobzy(){ // Function called foobzy.
+            $.ajax({
+                url: '/api/User/' + $('#id').val(),             // URL we go to
+                type: 'get',                                    // type of request we want to perform
+                contentType: 'application/json',                // Enforce JSON
+                processData: false,                             // ^
+                success: function (data, textStatus, jQxhr) {   // Function to run on success. textStatus = status of request, jQxhr = jQuery-wrapped XMLHttpRequest object (did req for us)
+                    var obj = data;                             // Data = Data returned from Server. (If JSON, gets magically converted)
+                    $("#fname").val(obj.fname);
+                    $("#lname").val(obj.lname);
+                },
+                error: function (jqXhr, textStatus, errorThrown) // Function to run on error.
+                {
+                    console.log(errorThrown);
+                }
+            });
+        }
+    </script>
+*@

@@ -1,0 +1,19 @@
+Task 1:
+
+If you’ve done it right, spinning up the:
+	- Data tier --- RemotingServer project
+	- then Business tier --- Business Tier project
+	- then GUI --- WPF App 
+
+will allow the program to run nicely.
+
+If you **don’t** start the Business tier, the GUI should consequentially not be able to work.
+
+
+===================
+Changelog:
+
+
+
+
+	

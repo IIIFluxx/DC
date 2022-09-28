@@ -1,0 +1,96 @@
+﻿
+@{
+    ViewBag.Title = "Transactions";
+}
+
+<h2>Transactions</h2>
+<br />
+<br />
+
+@* ======================== Forms ==================================*@
+
+    @*Get Transaction IN: (uint transactionID) | OUT: TransactionDetailStruct*@
+<form>
+    <label>Transaction Query</label><br />
+    @* User enters ID into here: *@
+    <input type="text" id="transID" name="transID" placeholder="Enter Transaction ID" /><br /><br />
+    @* Search method should return results, and display senderID, recipientID & amount in here:*@
+    <input type="text" id="transSenderID" name="transSenderID" placeholder="senderID" readonly /><br /><br />
+    <input type="text" id="transRecipientID" name="transRecipientID" placeholder="recipientID" readonly /><br /><br />
+    <input type="text" id="transAmt" name="transAmt" placeholder="Amount" readonly /><br /><br />
+</form>
+<button id="searchBtn" onclick="Search()">Search</button>
+
+    @*Create Transaction IN: (uint amount, uint senderID, uint recipientID) | OUT: bool indicating success of transaction.*@
+<form>
+    <label>Create Transaction </label><br />
+    @* User enters amount, senderID and recipientID into here: *@
+    <input type="text" id="amount" name="amount" placeholder="Enter amount to transact" /><br /><br />
+    <input type="text" id="senderID" name="senderID" placeholder="Enter sender's ID" /><br /><br />
+    <input type="text" id="recipientID" name="recipientID" placeholder="Enter recipient's ID" /><br /><br />
+</form>
+<button id="createBtn" onclick="Create()">Create</button>
+
+
+
+@* ======================== Functions/Scripts ==================================*@
+
+<script>
+    function Search() {
+        console.log("Searching for Transaction");
+        $.ajax({
+            url: "/api/BankAPI/GetTrans/" + $('#transID').val(),
+            type: 'get',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+                if (data != null) {
+                    var obj = data;
+                    alert("Transaction " + obj.transactionID + " found!");
+                    $("#transSenderID").val(obj.senderID);
+                    $("#transRecipientID").val(obj.recipientID);
+                    $("#transAmt").val(obj.amount);
+                }
+                else {
+                    console.log("Unable to find transaction from provided Transaction ID ");
+                    alert("Transaction not found!");
+                }
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                alert("ERROR: Transaction data is invalid");
+                console.log(errorThrown);
+            }
+        });
+
+    }
+
+    function Create() {
+
+        console.log("Creating Transaction");
+        //alert("Transaction ID found in visual studio console");
+        $.ajax({
+            url: "/api/BankAPI/CreateTrans/" + $("#amount").val() + "/" + $("#senderID").val() + "/" + $("#recipientID").val(),
+            type: 'post',
+            contentType: 'application/json',
+            processData: false,
+            success: function (data, textStatus, jQxhr) {
+
+                if (data == false) /* i.e. return from function == false ... Means transaction creation failed*/ {
+                    alert("Creating transaction failed. Please check sender's account balance!");
+                    console.log("Attempt to create transaction has failed.");
+                }
+                else { // Succeeded
+                    alert("Transaction from " + $("#senderID").val() + " to " + $("#recipientID").val() + " has been processed. ");
+                }
+            },
+            error: function (jqXhr, textStatus, errorThrown) {
+                console.log(errorThrown);
+                alert("ERROR: Create Transaction data is invalid");
+                // Reset fields.
+                $("#senderID").val("Enter sender's ID");
+                $("#recipientID").val("Enter recipient's ID");
+                $("#amount").val("Enter amount to transact");
+            }
+        });
+    }
+</script>
