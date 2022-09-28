@@ -1,0 +1,19 @@
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\ServicePublisher.exe.config
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\ServicePublisher.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\ServicePublisher.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\obj\Debug\ServicePublisher.csprojAssemblyReference.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\obj\Debug\ServicePublisher.csproj.CoreCompileInputs.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\obj\Debug\ServicePublisher.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\obj\Debug\ServicePublisher.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\Authenticator.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\Authenticator.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\Authenticator.exe.config
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\obj\Debug\ServicePublisher.csproj.CopyComplete
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\API Classes.dll
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\Newtonsoft.Json.dll
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\RestSharp.dll
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\RestSharp.Serializers.Newtonsoft.Json.dll
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\API Classes.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\Newtonsoft.Json.xml
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\ServicePublisher\bin\Debug\RestSharp.xml

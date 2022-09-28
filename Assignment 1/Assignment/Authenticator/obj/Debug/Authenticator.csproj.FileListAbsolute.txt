@@ -1,0 +1,27 @@
+C:\Users\bhara\source\repos\ServiceProvider\Authenticator\bin\Debug\Authenticator.exe.config
+C:\Users\bhara\source\repos\ServiceProvider\Authenticator\bin\Debug\Authenticator.exe
+C:\Users\bhara\source\repos\ServiceProvider\Authenticator\bin\Debug\Authenticator.pdb
+C:\Users\bhara\source\repos\ServiceProvider\Authenticator\obj\Debug\Authenticator.csprojAssemblyReference.cache
+C:\Users\bhara\source\repos\ServiceProvider\Authenticator\obj\Debug\Authenticator.csproj.CoreCompileInputs.cache
+C:\Users\bhara\source\repos\ServiceProvider\Authenticator\obj\Debug\Authenticator.exe
+C:\Users\bhara\source\repos\ServiceProvider\Authenticator\obj\Debug\Authenticator.pdb
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\bin\Debug\Authenticator.exe.config
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\bin\Debug\Authenticator.exe
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\bin\Debug\Authenticator.pdb
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.csprojAssemblyReference.cache
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.csproj.CoreCompileInputs.cache
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.exe
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\bin\Debug\Authenticator.exe.config
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\bin\Debug\Authenticator.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\bin\Debug\Authenticator.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.csprojAssemblyReference.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.csproj.CoreCompileInputs.cache
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.exe
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.pdb
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\bin\Debug\RestSharp.dll
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\bin\Debug\RestSharp.xml
+C:\Users\bhara\Documents\Subjects\Y2S2\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.csproj.CopyComplete
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\bin\Debug\RestSharp.dll
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\bin\Debug\RestSharp.xml
+D:\University\2021\DC\Assignment 1\Assignment\Authenticator\obj\Debug\Authenticator.csproj.CopyComplete
