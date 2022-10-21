@@ -2,6 +2,8 @@
 A collection of distributed applications with WPF frontend and backend that range from using .NET remoting and ASP.NET web API's,
 to Peer-to-Peer Networks and Blockchain that utilise multithreading.
 
+Mark - 100%
+
 ## Functionality:
 Please install Visual Studio to support this program built on the .NET Framework environment. 
 Please also ensure that the solution has been cleaned before building & running.
